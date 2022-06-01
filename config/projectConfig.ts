@@ -1,11 +1,11 @@
 const projectConfig = {
-  nftName: 'SkullsInLove',
+  nftName: 'ChonkyCats',
 
-  nftSymbol: 'SIL',
+  nftSymbol: 'CC',
 
-  maxSupply: 10000,
+  maxSupply: 9999,
 
-  maxMintAmountPerTxn: 10,
+  maxMintAmountPerTxn: 5,
 
   mintCost: process.env.NODE_ENV === 'production' ? 100 : 0.01,
 
@@ -25,9 +25,9 @@ const projectConfig = {
       ? `https://your_site_domain`
       : 'http://localhost:3000',
 
-  twitterUsername: '@your_twitter_handle',
+  twitterUsername: '@cats_chonky',
 
-  twitterUrl: 'https://twitter.com/your_twitter_handle',
+  twitterUrl: 'https://twitter.com/cats_chonky',
 
   discordUrl: 'https://discord.gg/your_discord_invite_code',
 
@@ -38,12 +38,12 @@ const projectConfig = {
 
   contractAddress:
     process.env.NODE_ENV === 'production'
-      ? 'your_mainnet_contract_address'
-      : 'your_testnet_contract_address',
+      ? '0xad59ecb77033391e847cc96829b08beb83151088'
+      : '0xad59ecb77033391e847cc96829b08beb83151088',
 
   scanUrl:
     process.env.NODE_ENV === 'production'
-      ? 'https://polygonscan.com/address/your_polygon_contract_address'
+      ? 'https://polygonscan.com/address/0xad59ecb77033391e847cc96829b08beb83151088'
       : 'https://mumbai.polygonscan.com/address/your_mumbai_contract_address',
   // 'https://etherscan.io/address/your_ethereum_contract_address'
   // 'https://rinkeby.etherscan.io/address/your_rinkeby_contract_address'

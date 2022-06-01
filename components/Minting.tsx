@@ -91,7 +91,7 @@ export default function Minting() {
         ABI,
         web3Provider
       );
-      setTotalSupply((await contract.totalSupply()).toString());
+      //setTotalSupply((await contract.totalSupply()).toString());
     }
 
     fetchTotalSupply();

@@ -24,13 +24,14 @@ const Home: NextPage = () => {
         <Prose>
           <h1 className="text-5xl font-bold mb-2">{projectConfig.nftName}</h1>
           <p className="text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+          A uniquely generated collective set of Chonky Cat NFTs to used in our 
+          storyline driven P2E game using staking & DeFi. Our vision is to create 
+          a journey for your Chonky Cat unlocking new items, new goals & delivering 
+          a fun story driven experience along the way. You will earn our token by 
+          staking your cat along with other NFT items released & required along the way. 
+          The more staked the more rewards. The higher the rarity the higher the earnings! 
+          Our token will be used to buy & sell NFTs on the market once minted during each 
+          Chapter release as well as rewarding holders of either our token or NFT collections. 
           </p>
         </Prose>
       </div>
